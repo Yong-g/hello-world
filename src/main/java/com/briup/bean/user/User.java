@@ -107,4 +107,7 @@ public class User {
     public void setApproval(String approval) {
         this.approval = approval;
     }
+
+    public User() {
+    }
 }

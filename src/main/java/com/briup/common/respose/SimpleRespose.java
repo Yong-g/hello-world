@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 
 /**
- *  code   0  成功  1 失败
+ *  code   0 成功  1 失败
  *
  * @param <T>
  */

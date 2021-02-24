@@ -25,7 +25,7 @@ public class LoginController {
     @Autowired
     private UsersDao usersDao;
 
-    @PostMapping("loginIn")
+    @PostMapping("in")
     @ResponseBody
     private Object login(@RequestBody User user,HttpServletRequest request){
         User one = userSerivce.findOne(user);
